@@ -30,3 +30,19 @@ show();
 console.log(functionVar); // Throws ReferenceError
 console.log(functionLet); // Throws ReferenceError
 console.log(functionConst); // Throws ReferenceError
+
+{
+    var blockPracticeVar = "Practice task for creating variables";
+    const blockPracticeConst = "Practice task for creating variables";
+    let blockPracticelet = "Practice task for creating variables";
+
+}
+
+//Global Variables
+    var blockPracticeVar = "Practice task for creating variables";
+    const blockPracticeConst = "Practice task for creating variables";
+    let blockPracticelet = "Practice task for creating variables";
+
+console.log(blockPracticeVar);
+console.log(blockPracticelet);
+console.log(blockPracticeConst);
